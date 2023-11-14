@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Discord</title>
+    <link rel="stylesheet" href="login_sty.css" />
+  </head>
+  <body>
+    <div class="logo">DISC T0madon</div>
+    <div class="container">
+      <div class="box">
+        <div class="left">
+          <div class="header">
+            <h2>Welcome Back</h2>
+            <p class="description">We're so excited to see you again!</p>
+          </div>
+
+          <form action="q" class="form">
+            <label for="email" class="sub-title"
+              >EMAIL OR PHONE NUMBER <span class="star">*</span></label
+            >
+
+            <input type="email" name="email" id="email" required />
+
+            <label for="password" class="sub-title"
+              >PASSWORD <span class="star">*</span></label
+            >
+
+            <input type="password" name="password" id="password" required />
+
+            <span><a href="esqueceu_senha.html">Forgot your password?</a></span>
+
+            <a href="pag_inicial.html" class="botao"
+              ><button class="login">Log In</button></a
+            >
+
+            <div class="signin">
+              <p>
+                Need an account? <span><a href="">Register</a></span>
+              </p>
+            </div>
+          </form>
+        </div>
+
+        <div class="right">
+          <img src="QRcode.png" alt="QRcode" class="QRcode" />
+          <h2>Log In with QR Code</h2>
+          <p class="description">
+            Scan this with the <strong>Discord mobile app </strong>to log in
+            instantly.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
